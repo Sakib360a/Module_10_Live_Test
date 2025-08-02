@@ -1,16 +1,42 @@
-# live_test
+# 📱 Add Employee App - Flutter Live Test (Module 10)
 
-A new Flutter project.
+This is a simple Flutter app built as part of the **Ostad Flutter Course – Batch 11**, specifically for the **Module 10 Live Test**.
 
-## Getting Started
+## 🧪 Task Overview
 
-This project is a starting point for a Flutter application.
+The goal of this test was to design a form-based UI that lets users enter:
+- 👤 Employee Name
+- 🎂 Age
+- 💰 Salary
 
-A few resources to get you started if this is your first Flutter project:
+Once all fields are filled, pressing the **"Add Employee"** button will validate the input and show a confirmation message.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📸 Screenshot
+
+<img src="screenshot.png" width="300" alt="UI Screenshot">
+
+---
+
+## 💡 Features
+
+- Clean and responsive UI using Flutter's `TextFormField` and `ElevatedButton`.
+- Basic input validation using simple `if()` logic.
+- Custom background color and button styling.
+- Displays `SnackBar` messages for success or error feedback.
+
+---
+
+## 🛠️ Tech Stack
+
+- Flutter (SDK >=3.0.0)
+- Dart
+
+---
+
+## 🔧 How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/your-repo-name.git
