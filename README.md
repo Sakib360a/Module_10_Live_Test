@@ -13,12 +13,6 @@ Once all fields are filled, pressing the **"Add Employee"** button will validate
 
 ---
 
-## 📸 Screenshot
-
-<img src="screenshot.png" width="300" alt="UI Screenshot">
-
----
-
 ## 💡 Features
 
 - Clean and responsive UI using Flutter's `TextFormField` and `ElevatedButton`.
@@ -30,7 +24,7 @@ Once all fields are filled, pressing the **"Add Employee"** button will validate
 
 ## 🛠️ Tech Stack
 
-- Flutter (SDK >=3.0.0)
+- Flutter 
 - Dart
 
 ---
@@ -39,4 +33,4 @@ Once all fields are filled, pressing the **"Add Employee"** button will validate
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+   git clone https://github.com/Sakib360a/Module_10_Live_Test.git
