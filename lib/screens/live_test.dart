@@ -16,6 +16,7 @@ class LiveTest extends StatelessWidget {
         padding: EdgeInsets.symmetric(horizontal: 10,vertical: 0),
         child: Column(
           children: [
+            SizedBox(height: 10,),
             TextFormField(
               controller: nameController,
               style: TextStyle(fontSize: 25),
@@ -25,7 +26,7 @@ class LiveTest extends StatelessWidget {
                 border: UnderlineInputBorder(),
               ),
             ),
-            const SizedBox(height: 20,),
+            const SizedBox(height: 15,),
             TextFormField(
               controller: ageController,
               keyboardType: TextInputType.number,
@@ -36,7 +37,7 @@ class LiveTest extends StatelessWidget {
                 border: UnderlineInputBorder(),
               ),
             ),
-            const SizedBox(height: 20,),
+            const SizedBox(height: 15,),
             TextFormField(
               controller: salaryController,
               style: TextStyle(fontSize: 25),
@@ -49,8 +50,8 @@ class LiveTest extends StatelessWidget {
             ),
             const SizedBox(height: 40,),
             SizedBox(
-                height: 55,
-                width: 170,
+                height: 50,
+                width: 160,
                 child: ElevatedButton(onPressed: (){
                   String name = nameController.text.trim();
                   String age = ageController.text.trim();
@@ -70,7 +71,7 @@ class LiveTest extends StatelessWidget {
                     );
                   }
                 }, child: Text('Add Employee',style:
-                TextStyle(fontSize: 18),)))
+                TextStyle(fontSize: 16),)))
           ],
         ),
       ),
